@@ -1,0 +1,5 @@
+[backend]
+backend_server ansible_host=13.48.13.175 ansible_user=ubuntu ansible_ssh_private_key_file=/home/barry/.ssh/firstkey.pem
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
